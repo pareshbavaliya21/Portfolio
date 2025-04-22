@@ -217,15 +217,15 @@ const ContactForm = () => {
               </div>
               <div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Portfolio
+                  Linkdin
                 </p>
                 <a
-                  href="https://bit.ly/3Z1fHMj"
+                  href="https://linkedin.com/in/paresh-bavaliya"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-medium hover:text-theme-purple transition-colors"
                 >
-                  bit.ly/3Z1fHMj
+                  linkedin.com/in/paresh-bavaliya
                 </a>
               </div>
             </div>

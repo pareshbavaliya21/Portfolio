@@ -71,7 +71,7 @@ const Index = () => {
                       View My Projects
                     </a>
                     <a
-                      href="/Paresh_Bavalliya_Resume.pdf"
+                      href="public/Paresh_Bavalliya_Resume.pdf"
                       className="btn-secondary flex items-center gap-2"
                       download
                     >
@@ -360,7 +360,7 @@ const Index = () => {
               <TimelineItem
                 year="2021 - 2022"
                 title="Science Stream"
-                description="Sankalp Vidhyalaya (67%)"
+                description="Sankalp Vidhyalaya"
                 isLast={true}
                 delay={400}
               />
@@ -416,7 +416,7 @@ const Index = () => {
                   >
                     LinkedIn
                   </a>
-                  <a
+                  {/* <a
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -424,7 +424,7 @@ const Index = () => {
                     aria-label="Twitter"
                   >
                     Twitter
-                  </a>
+                  </a> */}
                 </div>
               </ScrollReveal>
             </div>
