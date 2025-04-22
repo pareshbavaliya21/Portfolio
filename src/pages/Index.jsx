@@ -87,7 +87,7 @@ const Index = () => {
                   <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden gradient-bg p-2 animate-pulse-glow">
                     <img
                       // src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
-                      src="/1.jpg"
+                      src="./ProfileImage.jpg"
                       alt="Paresh Bavaliya"
                       className="w-full h-full object-cover rounded-full"
                     />
