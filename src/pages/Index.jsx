@@ -71,7 +71,7 @@ const Index = () => {
                       View My Projects
                     </a>
                     <a
-                      href="public/Paresh_Bavalliya_Resume.pdf"
+                      href="./Paresh_Bavalliya_Resume.pdf"
                       className="btn-secondary flex items-center gap-2"
                       download
                     >
