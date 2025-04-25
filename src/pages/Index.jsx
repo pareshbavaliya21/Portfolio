@@ -12,6 +12,7 @@ import {
   Palette,
   GitFork,
 } from "lucide-react";
+import { SiWordpress } from "react-icons/si";
 import { ThemeProvider } from "../components/ThemeProvider";
 import NavBar from "../components/NavBar";
 import ParticleBackground from "../components/ParticleBackground";
@@ -73,7 +74,7 @@ const Index = () => {
                     <a
                       href={`${
                         import.meta.env.BASE_URL
-                      }Paresh_Bavalliya_Resume.pdf`}
+                      }Paresh_Bavaliya_Resume.pdf`}
                       className="btn-secondary flex items-center gap-2"
                       download
                     >
@@ -244,6 +245,7 @@ const Index = () => {
               <SkillIcon name="JavaScript" icon={Code} delay={300} />
               <SkillIcon name="React.js" icon={Puzzle} delay={400} />
               <SkillIcon name="Redux.js" icon={Server} delay={500} />
+              <SkillIcon name="WordPress" icon={SiWordpress} delay={500} />
               <SkillIcon name="Bootstrap" icon={Brush} delay={600} />
               <SkillIcon name="Tailwind CSS" icon={Brush} delay={700} />
               <SkillIcon name="TypeScript" icon={Code} delay={800} />
