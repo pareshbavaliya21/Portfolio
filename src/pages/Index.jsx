@@ -12,7 +12,9 @@ import {
   Palette,
   GitFork,
 } from "lucide-react";
-import { SiWordpress } from "react-icons/si";
+import { SiWordpress, SiJquery } from "react-icons/si";
+import { FiServer } from "react-icons/fi";
+
 import { ThemeProvider } from "../components/ThemeProvider";
 import NavBar from "../components/NavBar";
 import ParticleBackground from "../components/ParticleBackground";
@@ -246,6 +248,8 @@ const Index = () => {
               <SkillIcon name="React.js" icon={Puzzle} delay={400} />
               <SkillIcon name="Redux.js" icon={Server} delay={500} />
               <SkillIcon name="WordPress" icon={SiWordpress} delay={500} />
+              <SkillIcon name="jQuery" icon={SiJquery} delay={500} />
+              <SkillIcon name="AJAX" icon={FiServer} delay={500} />
               <SkillIcon name="Bootstrap" icon={Brush} delay={600} />
               <SkillIcon name="Tailwind CSS" icon={Brush} delay={700} />
               <SkillIcon name="TypeScript" icon={Code} delay={800} />
