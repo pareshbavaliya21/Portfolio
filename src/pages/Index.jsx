@@ -244,7 +244,7 @@ const Index = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
               <SkillIcon name="HTML" icon={FileCode} delay={100} />
               <SkillIcon name="CSS" icon={Layout} delay={200} />
-              <SkillIcon name="JavaScript" icon={Code} delay={300} />
+              <SkillIcon name="JavaScript(ES6)" icon={Code} delay={300} />
               <SkillIcon name="React.js" icon={Puzzle} delay={400} />
               <SkillIcon name="Redux.js" icon={Server} delay={500} />
               <SkillIcon name="WordPress" icon={SiWordpress} delay={500} />
