@@ -11,10 +11,10 @@ import {
   Briefcase,
   Palette,
   GitFork,
+  Move,
 } from "lucide-react";
 import { SiWordpress, SiJquery } from "react-icons/si";
 import { FiServer } from "react-icons/fi";
-
 import { ThemeProvider } from "../components/ThemeProvider";
 import NavBar from "../components/NavBar";
 import ParticleBackground from "../components/ParticleBackground";
@@ -255,6 +255,7 @@ const Index = () => {
               <SkillIcon name="TypeScript" icon={Code} delay={800} />
               <SkillIcon name="Material UI" icon={Palette} delay={800} />
               <SkillIcon name="Git & GitHub" icon={GitFork} delay={800} />
+              <SkillIcon name="Framer Motion" icon={Move} delay={800} />
             </div>
           </div>
         </section>
