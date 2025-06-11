@@ -13,7 +13,7 @@ import {
   GitFork,
   Move,
 } from "lucide-react";
-import { SiWordpress, SiJquery } from "react-icons/si";
+import { SiWordpress, SiJquery, SiFormik, SiPyup } from "react-icons/si";
 import { FiServer } from "react-icons/fi";
 import { ThemeProvider } from "../components/ThemeProvider";
 import NavBar from "../components/NavBar";
@@ -247,15 +247,17 @@ const Index = () => {
               <SkillIcon name="JavaScript(ES6)" icon={Code} delay={300} />
               <SkillIcon name="React.js" icon={Puzzle} delay={400} />
               <SkillIcon name="Redux.js" icon={Server} delay={500} />
-              <SkillIcon name="WordPress" icon={SiWordpress} delay={500} />
-              <SkillIcon name="jQuery" icon={SiJquery} delay={500} />
-              <SkillIcon name="AJAX" icon={FiServer} delay={500} />
-              <SkillIcon name="Bootstrap" icon={Brush} delay={600} />
-              <SkillIcon name="Tailwind CSS" icon={Brush} delay={700} />
-              <SkillIcon name="TypeScript" icon={Code} delay={800} />
-              <SkillIcon name="Material UI" icon={Palette} delay={800} />
-              <SkillIcon name="Git & GitHub" icon={GitFork} delay={800} />
-              <SkillIcon name="Framer Motion" icon={Move} delay={800} />
+              <SkillIcon name="WordPress" icon={SiWordpress} delay={600} />
+              <SkillIcon name="jQuery" icon={SiJquery} delay={700} />
+              <SkillIcon name="AJAX" icon={FiServer} delay={800} />
+              <SkillIcon name="Bootstrap" icon={Brush} delay={900} />
+              <SkillIcon name="Tailwind CSS" icon={Brush} delay={1000} />
+              <SkillIcon name="TypeScript" icon={Code} delay={1100} />
+              <SkillIcon name="Material UI" icon={Palette} delay={1200} />
+              <SkillIcon name="Git & GitHub" icon={GitFork} delay={1300} />
+              <SkillIcon name="Framer Motion" icon={Move} delay={1400} />
+              <SkillIcon name="Formik" icon={SiFormik} delay={1500} />
+              <SkillIcon name="Yup" icon={SiPyup} delay={1600} />
             </div>
           </div>
         </section>
